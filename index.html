@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo"><span>Fathima</span></a>
+
+            <ul class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#services">Services</a>
+            </ul>
+
+            <i class='bx bx-menu-alt-right' id="menu"></i>
+
+            <a href="#contact" class="btn">Contact Me</a>
+    </nav>
+
+    <section id="home">
+        <img src="Images/IMG-20201003-WA0013new.jpg" alt="">
+
+        <div class="info-box">
+            <h1><span>Hello, I'm Fathima</span></h1>
+            <h3><span>Web Developer</span> based in India</h3>
+    
+    
+            <p>I am an aspirant web developer with a keen interest in full stack development. I am passionate about building dynamic, user friendly web applications that seemlessly integrate front-end and back-end technologies. With a commitment to continuous learning, I strive to enhance my skills in modern frameworks and tools, aiming to create efficient and scalable digital solutions.</p>
+        </div>
+
+        <div class="btn-box">
+            <div class="btn" id="btn1"><a href="#contact">Hire</a></div>
+            <div class="btn" id="btn2"><a href="#contact">Contact Me</a></div>   
+            
+
+        </div>
+    </section>
+    <section id="about">
+
+        <div class="about-box">
+
+            <div class="about-info">
+                <h1><span>About Me</span></h1> 
+                <p>After completing my <span>B.Tech</span> in <span>Information Technology</span>, I pursued and earned an <span>M.Tech</span> in <span>Computer and Information Science</span>. My acadamic foundation has equipped me with a strong understanding of technology and its applications in solving real-world challenges.<br>Professionally, I have experience as a <span>Centre In-charge</span> at a <span>DDU-GKY</span> training institute, where I honed my skills in management, operations and leadership. <br> I am passionate about leveraging my technical knowlege and leadership experience to contribute meaningfully to innovative projects and organizational success. </p>
+
+            </div>
+               <h2><span>Skills</span></h2>
+                <div class="skills">
+                    <ul>
+                        <li><span><i class='bx bx-chevron-right'></i>HTML</span></li>
+                        <li><span><i class='bx bx-chevron-right'></i>CSS</span></li>
+                        <li><span><i class='bx bx-chevron-right'></i>JavaScript</span></li>
+                    </ul>
+                    <ul>
+                        <li><span><i class='bx bx-chevron-right'></i>C</span></li>
+                        <li><span><i class='bx bx-chevron-right'></i>Java</span></li>
+                        <li><span><i class='bx bx-chevron-right'></i>MySQl</span></li>
+                    </ul>
+                </div>
+
+        </div>
+        <img src="Images/IMG-20201003-WA0013new.jpg" alt="">
+    </section>
+
+
+
+
+    <section id="projects">
+        <h1 class="header"><span> My Projects</span></h1>
+
+        <div class="projects-container">
+
+            <div class="box">
+                <h1><span>Netflix Clone</span></h1>
+                
+                <img src="Images/NetflixClone.jpg" alt="">
+                
+                <div class="pjt-btn-contain" >
+                    <button class="pjt-btn" type="submit" onclick="location.href='https://fathimamajeed72.github.io/Website1/'">Preview</button>
+                    <button class="pjt-btn" type="submit" onclick="location.href='https://github.com/FathimaMajeed72/Website1'">Github</button>
+                </div>
+
+
+            </div>
+
+            <div class="box">
+                <h1><span>Papergrid Clone</span></h1>
+                
+                <img src="Images/papergrid_screenshot.jpg" alt="">
+
+                <div class="pjt-btn-contain" >
+                    <button class="pjt-btn" type="submit" onclick="location.href='https://github.com/FathimaMajeed72/Website2'">Preview</button>
+                    <button class="pjt-btn" type="submit" onclick="location.href='https://fathimamajeed72.github.io/Website2/'">Github</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="services">
+        <h1 class="header"><span>Services</span></h1>
+
+        <div class="service-container">
+
+            <div class="box">
+                <h1><span>Web Design</span></h1>
+                
+                <img src="Images/webdesign.jpg" alt="">
+            </div>
+
+            <div class="box">
+                <h1><span>Web Development</span></h1>
+                
+                <img src="Images/webdevelop.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h1 class="header"><span>Contact</span></h1>
+
+        <form  id="contact_form" action="https://formspree.io/f/mjkkpydp" method="POST">
+            <div class="input-box">
+                <span>Full Name</span>
+                <input type="text" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="input-box">
+                <span>Your Email</span>
+                <input type="email" name="email" placeholder="Enter your Email" required>
+            </div>
+
+            <div class="input-box">
+                <span>Message</span>
+                <input type="text" name="message" placeholder="Enter your Message" required>
+            </div>
+
+           <!-- <div class="btn">submit</div>--> 
+            <div class="btn" >
+                <button id="btn_submit" type="submit">submit</button>
+            </div>
+
+        </form>
+
+
+    </section>
+
+    <footer>
+
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bxs-location-plus'></i></span>
+                <span>Kollam, Kerala</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-phone'></i></span>
+                <span>+91 9656XXXXXX</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-envelope'></i></span>
+                <span>fathimamajid@gmail.com</span>
+            </div>
+
+        </div>
+        <div class="col-right">
+            <span>About My Services</span>
+            <p>As a professional web developer I specialize in creating responsive, user-friendly websites tailored to meet unique needs. From custom designs and seamless functionality to performance optimization and ongoing support, I deliver solutions that help your business thrive online. Let's build something amazing together!</p>
+            <div class="social-icons">
+                <a href="www.linkedin.com/in/fathima-sanooj-742052165"><span><i class='bx bxl-linkedin-square'></i></span></a>
+                <a href="https://github.com/FathimaMajeed72"><span><i class='bx bxl-github'></i></span></a>
+                  
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>  
